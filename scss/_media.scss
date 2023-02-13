@@ -1,0 +1,94 @@
+@media screen and (max-width: 900px){
+
+    .modal-backdrop {
+        z-index: 20;
+    }
+    
+    header {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .nav1 {
+        display: none;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        padding: 15px 20px 15px 20px;
+        margin: auto;
+    }
+
+    .btn-primary {
+        --bs-btn-bg: $color2;
+        --bs-btn-border-color: $color2;
+        --bs-btn-hover-bg: $color1;
+        --bs-btn-hover-border-color: $color1;
+        --bs-btn-active-bg: #$color1;
+        --bs-btn-active-border-color: $color1;
+    }
+
+    .btn-secondary {
+        --bs-btn-bg: $color2;
+    }
+    
+    .menu-responsive {
+        display: flex;
+        margin: 0px 50px 0px 0px;
+    }
+
+    .modal {
+        --bs-modal-width: 250px;
+    }
+    
+    .home {
+        grid-template-columns: 100%;
+        row-gap: 10px;
+        grid-template-rows:auto
+    }
+
+    .imagen1, .imagen2 {
+        justify-self: center;
+    }
+
+    .imagen1 img, .imagen2 img {
+        width: 96vmin;
+    }
+
+    .imagen1 {
+        order: 2;
+    }
+
+    .subhome {
+        order: 1;
+    }
+
+    .subhome2 {
+        order: 3;
+        margin-top: 160px;
+    }
+
+    .imagen2 {
+        order: 4;
+    }
+
+    .home p, .home2 p {
+        margin: 40px 0px 40px 0px;
+    }
+
+    .presentacion img {
+        width: 100vmin;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .carousel h5 {
+        font-size: 1.5rem;
+    }
+}

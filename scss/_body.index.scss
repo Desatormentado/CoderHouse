@@ -1,0 +1,47 @@
+.color {
+    background-color: $color3;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2fr 2fr;
+    row-gap: 200px;
+    padding: 30px;
+    margin: 55px auto;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subhome h1, .subhome2 h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.home p, .home2 p {
+    margin: 50px 45px;
+    text-align: center;
+    padding: 10px;
+    background: $color2;
+    color: #ffffffff;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.imagen1, .imagen2 {
+    justify-self: end;
+}
+
+.imagen1 img, .imagen2 img {
+    width: 42vw;
+}
+
+.home2 {
+    display: flex;
+    padding: 60px 0px 60px 0px;
+    flex-direction: row;
+    justify-content: space-around;
+    color: $color1;
+    background-color: #d0e7fe8e;
+}

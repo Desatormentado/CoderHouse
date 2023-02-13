@@ -1,0 +1,33 @@
+.portafolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $color3;
+    padding: 30px 0px 30px;
+}
+
+.portafolio img, .portafolio2 img { 
+    width: 490px;
+}
+
+.bloque2 {
+    display: flex;
+    width: 460px;
+    height: 330px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.bloque2 h1 {
+    color: $color1;
+}
+
+.portafolio2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 30px 0px 30px;
+    flex-direction:row-reverse;
+}
