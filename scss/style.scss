@@ -9,16 +9,18 @@
 
 $color1: #019294;
 $color2: #0C161B;
-$color3: #EEEEEE;
+$background1: #ffffffff;
+$background2: #EEEEEE;
 
 @import "header";
 @import "footer";
-@import "media";
 @import "body.index";
 @import "body.sobremi";
 @import "body.service";
 @import "body.portafolio";
 @import "body.contacto";
+@import "media";
+
 
 
 
@@ -29,5 +31,5 @@ h1 {
 }
 
 body {
-    background-color: $color3;
+    background-color: $background2;
 }

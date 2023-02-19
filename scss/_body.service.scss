@@ -1,8 +1,3 @@
-.servicios {
-    display: flex;
-    align-items: center;
-    flex-direction:column;
-}
 
 .opciones {
     display: flex;
@@ -18,24 +13,22 @@
     margin: 0px 0px 20px;
 }
  
-.servicios img {
-    width: 450px;
-}
-
 .opciones p {
     width: 448px;
     color: #3c4457;
     padding: 20px 0px;
 }
 
-.servicios a {
+.servicios {
     display: flex;
     font-size: 1.5rem;
     padding: 10px;
-    margin: 38px;
     border-radius: 13px;
     color: #fff;
     background: $color2;
+    justify-content: center;
+    width: 130px;
+    margin: 30px auto 30px;
 }
 
 .carousel {
@@ -58,6 +51,15 @@
     font-weight: 500;
 }
 
-.carousel-indicators [data-bs-target] {
-    background-color: $color2;
+.cartas {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 70px 0px;
+}
+
+.boton {
+    background-color: #ffffffff;
+    display: flex;
+    align-items: center;
 }
