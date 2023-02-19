@@ -272,22 +272,6 @@ nav a {
         color: #019294;
         font-weight: 900; }
 
-.opciones {
-  display: flex; }
-
-.opcion1, .opcion2, .opcion3 {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 15px; }
-
-.opciones img {
-  margin: 0px 0px 20px; }
-
-.opciones p {
-  width: 448px;
-  color: #3c4457;
-  padding: 20px 0px; }
-
 .servicios {
   display: flex;
   font-size: 1.5rem;
@@ -302,16 +286,14 @@ nav a {
 .carousel {
   width: 100vmin;
   margin: 40px auto 50px; }
+  .carousel h5 {
+    font-size: 2.25rem; }
+  .carousel p {
+    font-weight: 500; }
 
 .carousel-caption {
   color: #0C161B;
   padding: 0px; }
-
-.carousel h5 {
-  font-size: 2.25rem; }
-
-.carousel p {
-  font-weight: 500; }
 
 .cartas {
   display: flex;
