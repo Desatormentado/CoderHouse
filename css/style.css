@@ -15,7 +15,8 @@ header {
   margin: auto;
   align-items: center;
   z-index: 30;
-  background: #ffffff; }
+  background: #ffffff;
+  box-shadow: 0 5px 20px 2px rgb(0 0 0 / 11%); }
 
 .menu-responsive {
   display: none; }
