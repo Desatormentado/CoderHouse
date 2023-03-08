@@ -400,7 +400,8 @@ body {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  background-color: #019294; }
+  background-color: #019294;
+  color: #ffffffff; }
 
 .hvr-rotate {
   display: inline-block;
